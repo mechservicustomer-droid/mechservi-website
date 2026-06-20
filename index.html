@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MechServi - Doorstep Vehicle Care Platform. Professional car wash, bike wash, repairs, maintenance, and emergency roadside assistance delivered at your doorstep by verified experts.">
+    <title>MechServi - Doorstep Vehicle Care, On Your Terms</title>
+
+    <!-- Favicons & Manifest -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="MechServi">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header id="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="header-logo">
+        <img src="assets/logo.png" alt="MechServi Logo">
+      </a>
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#" class="active" id="nav-home">Home</a></li>
+                    <li><a href="#how-it-works" id="nav-how">How It Works</a></li>
+                    <li><a href="#services" id="nav-services">Services</a></li>
+                    <li><a href="#partner" id="nav-partner">Join as Partner</a></li>
+                    <li><a href="#faqs" id="nav-faq">FAQs</a></li>
+                </ul>
+                <div class="mobile-only-actions">
+                    <a href="#download" class="btn btn-secondary" id="mobile-nav-btn-secondary">Download App</a>
+                    <a href="#services" class="btn btn-primary" id="mobile-nav-btn-primary">Book Doorstep Care</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#download" class="btn btn-secondary" id="nav-btn-secondary">Download App</a>
+                <a href="#services" class="btn btn-primary" id="nav-btn-primary">Book Doorstep Care</a>
+            </div>
+
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-text-container">
+            <div class="hero-bg-text">
+                MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp; MECHSERVI &nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="hero-tag" id="hero-tag-badge">
+                    <span></span> Doorstep Service in 45 Minutes
+                </div>
+                <h1 id="hero-heading">
+                    <span class="hero-line">
+            <span class="word">Trusted</span>
+                    <span class="word">vehicle</span>
+                    <span class="word">services,</span>
+                    <span class="word">delivered</span>
+                    </span>
+                    <span class="hero-line">
+
+            <span class="rotating-words-wrapper">
+              <span class="rotating-word" style="--gradient: linear-gradient(135deg, #F05A28, #C1272D)">on your
+                terms.</span>
+                    <span class="rotating-word" style="--gradient: linear-gradient(135deg, #F05A28, #10B981)">on your
+                schedule.</span>
+                    <span class="rotating-word" style="--gradient: linear-gradient(135deg, #E04E1D, #F59E0B)">at your
+                doorstep.</span>
+                    <svg class="handwritten-underline" viewBox="0 0 200 12" fill="none" preserveAspectRatio="none">
+                <path d="M2 10 C 50 2, 150 2, 198 10" stroke="var(--color-primary)" stroke-width="3.5"
+                  stroke-linecap="round" />
+              </svg>
+                    </span>
+                    </span>
+                </h1>
+                <p class="hero-desc" id="hero-description">
+                    Doorstep vehicle care ecosystem connecting owners with verified experts. From a waterless premium wash to complex mechanics, MechServi brings the service center to your driveway.
+                </p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn btn-primary" id="hero-btn-primary">Book Doorstep Care</a>
+                    <a href="#simulator" class="btn btn-secondary" id="hero-btn-secondary">
+                        <!-- Play icon in SVG -->
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M8 5V19L19 12L8 5Z" />
+            </svg> Try Booking Demo
+                    </a>
+                </div>
+
+                <div class="hero-stats" id="hero-stats-panel">
+                    <div class="hero-stat-item">
+                        <h3 id="stat-ratings-num">10K+</h3>
+                        <p>Customer Ratings</p>
+                    </div>
+                    <div class="hero-stat-item">
+                        <h3 id="stat-downloads-num">50K+</h3>
+                        <p>App Downloads</p>
+                    </div>
+                    <div class="hero-stat-item">
+                        <h3 id="stat-rating-val">4.8★</h3>
+                        <p>Average Rating</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="blob-glow"></div>
+
+                <!-- Smartphone Graphic Mockup (Interactive Tracking Demo) -->
+                <div class="smartphone-mockup" id="hero-mockup">
+                    <div class="app-screen hero-app-screen" id="hero-app-state-container" data-state="idle">
+                        <!-- App StatusBar Mockup -->
+                        <div class="app-statusbar">
+                            <span class="statusbar-time">09:41</span>
+                            <div class="statusbar-icons">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c3.9-3.9 10.2-3.9 14.1 0l.78-1.79C20.26 16.07 21 14.12 21 12c0-4.97-4.03-9-9-9z" />
+                </svg>
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+                </svg>
+                            </div>
+                        </div>
+
+                        <!-- App Header Navigation -->
+                        <div class="app-header">
+                            <div class="app-header-left">
+                                <span class="app-status-indicator"></span>
+                                <span class="app-title">MechServi Live</span>
+                            </div>
+                            <div class="app-profile">S</div>
+                        </div>
+
+                        <!-- Map View Container -->
+                        <div class="app-map-view" id="hero-map">
+                            <!-- Grid Roads (Using SVG for maximum alignment & sharp responsive visuals) -->
+                            <svg class="map-grid-svg" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Outer Ring & Blocks -->
+                <rect x="15" y="15" width="170" height="210" rx="12" stroke="#E5E7EB" stroke-width="1.5"
+                  stroke-dasharray="4 4" />
+
+                <!-- Main Horizontal Streets -->
+                <path d="M0 65 H200" stroke="#FFFFFF" stroke-width="12" />
+                <path d="M0 65 H200" stroke="#E5E7EB" stroke-width="1.5" />
+                <path d="M0 145 H200" stroke="#FFFFFF" stroke-width="12" />
+                <path d="M0 145 H200" stroke="#E5E7EB" stroke-width="1.5" />
+
+                <!-- Main Vertical Streets -->
+                <path d="M60 0 V240" stroke="#FFFFFF" stroke-width="12" />
+                <path d="M60 0 V240" stroke="#E5E7EB" stroke-width="1.5" />
+                <path d="M140 0 V240" stroke="#FFFFFF" stroke-width="12" />
+                <path d="M140 0 V240" stroke="#E5E7EB" stroke-width="1.5" />
+
+                <!-- Diagonal shortcut road -->
+                <path d="M60 145 L140 65" stroke="#FFFFFF" stroke-width="10" />
+                <path d="M60 145 L140 65" stroke="#E5E7EB" stroke-width="1" />
+              </svg>
+
+                            <!-- Pulsing Customer Target Location Pin -->
+                            <div class="app-map-pin" style="left: 60px; top: 65px;">
+                                <div class="pin-sonar"></div>
+                                <div class="pin-core"></div>
+                            </div>
+
+                            <!-- Animated Vendor Pin -->
+                            <div class="app-map-vendor-pin" id="hero-vendor-pin" style="left: 140px; top: 220px;">
+                                <div class="vendor-avatar-badge" id="hero-vendor-badge">
+                                    <!-- Dynamic Service Icon will render here via JS -->
+                                    <svg viewBox="0 0 24 24">
+                    <path
+                      d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.27-3.82c.14-.4.52-.68.96-.68h9.54c.44 0 .82.28.96.68L19 11H5z"
+                      fill="currentColor" />
+                  </svg>
+                                </div>
+                                <div class="vendor-radar-ping"></div>
+                            </div>
+                        </div>
+
+                        <!-- Dynamic Floating Status Widget -->
+                        <div class="app-float-card card-top-right hero-widget" id="hero-widget-status">
+                            <div class="icon-badge" id="hero-widget-badge">
+                                <svg class="icon-clock" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                            </div>
+                            <div class="details">
+                                <h4 id="hero-widget-title">Live Tracker</h4>
+                                <p id="hero-widget-desc">Select a service to start demo</p>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Control console Sheet -->
+                        <div class="app-control-sheet" id="hero-control-sheet">
+                            <!-- STATE: Idle/Selection -->
+                            <div class="sheet-state active" id="hero-sheet-idle">
+                                <div class="sheet-indicator"></div>
+                                <p class="sheet-label">Choose Doorstep Service</p>
+                                <div class="service-option-row">
+                                    <button class="service-opt-btn active" data-service="wash">
+                    <div class="btn-icon">🚗</div>
+                    <span>Wash</span>
+                  </button>
+                                    <button class="service-opt-btn" data-service="repair">
+                    <div class="btn-icon">🔧</div>
+                    <span>Repair</span>
+                  </button>
+                                    <button class="service-opt-btn" data-service="tow">
+                    <div class="btn-icon">🚜</div>
+                    <span>Towing</span>
+                  </button>
+                                </div>
+                                <button class="sheet-primary-btn" id="hero-btn-start">Request Live Track</button>
+                            </div>
+
+                            <!-- STATE: Matching -->
+                            <div class="sheet-state" id="hero-sheet-matching">
+                                <div class="matching-radar-container">
+                                    <div class="radar-circle circle-1"></div>
+                                    <div class="radar-circle circle-2"></div>
+                                    <div class="matching-avatar">?</div>
+                                </div>
+                                <p class="matching-text">Finding nearest technician...</p>
+                            </div>
+
+                            <!-- STATE: Active Tracking/Progress -->
+                            <div class="sheet-state" id="hero-sheet-tracking">
+                                <div class="provider-profile-card">
+                                    <div class="profile-avatar" id="hero-provider-avatar">S</div>
+                                    <div class="provider-info">
+                                        <h5 id="hero-provider-name">Suresh Kumar</h5>
+                                        <p id="hero-provider-meta">⭐ 4.9 • Suzuki Swift</p>
+                                    </div>
+                                    <div class="provider-actions">
+                                        <button class="action-btn-circle message-btn">💬</button>
+                                        <button class="action-btn-circle call-btn">📞</button>
+                                    </div>
+                                </div>
+                                <div class="progress-details-row">
+                                    <div class="progress-info">
+                                        <span id="hero-progress-label">Arriving in</span>
+                                        <strong id="hero-progress-val">12 mins</strong>
+                                    </div>
+                                    <div class="mini-progress-bar">
+                                        <div class="mini-progress-fill" id="hero-progress-fill" style="width: 0%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STATE: Receipt/Success -->
+                            <div class="sheet-state" id="hero-sheet-receipt">
+                                <div class="success-header">
+                                    <div class="success-checkmark">✓</div>
+                                    <h5>Service Completed!</h5>
+                                </div>
+                                <div class="receipt-mini-table">
+                                    <div class="receipt-row">
+                                        <span>Provider</span>
+                                        <span id="hero-receipt-provider">Suresh Kumar</span>
+                                    </div>
+                                    <div class="receipt-row">
+                                        <span>Total Paid</span>
+                                        <strong id="hero-receipt-amount">₹499</strong>
+                                    </div>
+                                </div>
+                                <button class="sheet-primary-btn outline-btn" id="hero-btn-reset">Simulate Again</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Supported Brands Ticker -->
+    <section class="ticker-section" id="brands-ticker">
+        <div class="ticker-title">Supported Vehicle Brands & Services</div>
+        <div class="ticker-wrap">
+            <div class="ticker-content" id="ticker-slider">
+                <!-- Double list for infinite loop -->
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M17.369 19.995C13.51 22.39 12 24 12 24L.105 15.705s5.003-3.715 9.186-.87l5.61 3.882.683-.453L.106 7.321s2.226-.65 6.524-3.315C10.49 1.609 12 0 12 0l11.895 8.296s-5.003 3.715-9.187.87L9.1 5.281l-.683.454L23.893 16.68s-2.224.649-6.524 3.315Z"
+              fill="currentColor" />
+          </svg>
+                    <span>Maruti Suzuki</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M12 18.1622c-6.6275 0-12-2.7586-12-6.163 0-3.4028 5.3725-6.1614 12-6.1614 6.6278 0 12 2.7586 12 6.1614 0 3.4044-5.3722 6.163-12 6.163zM7.6023 7.17C3.701 7.9784.973 9.8302.973 11.9844c0 1.1929.8382 2.2932 2.248 3.1757.1174.0724.1941.0862.251.0826.1019-.006.1593-.0698.201-.146.028-.0485.0631-.1225.0972-.1968.4601-1.0834 2.0776-4.8333 4.2023-7.3758a1.1775 1.1775 0 0 0 .1048-.1461c.046-.084.0356-.1513.0006-.192-.0593-.0647-.2247-.065-.4756-.016zM9.742 8.8995c-1.1728 2.8492 1.0473 2.4961 1.6478 2.3637 1.0203-.2258 1.9944-.6128 2.7746-.925 2.2216-.8887 3.4012-1.7804 3.7925-2.123a1.9839 1.9839 0 0 0 .1076-.0988c.0557-.058.0976-.1192.0976-.2002 0-.0936-.081-.1687-.2374-.2231-.012-.0049-.0517-.021-.0641-.025-1.698-.5415-3.724-.8563-5.9016-.8563-.0168 0-.0586-.0022-.1169 0-.2608.0078-.5509.0664-.787.1888-.7777.4049-1.1163 1.4235-1.313 1.899zm10.5851.0037c-.0268.0487-.0612.1224-.0962.1974-.4599 1.0826-2.0774 4.831-4.2018 7.3733-.0515.063-.0796.1031-.1042.1467-.0492.0846-.0388.1535 0 .1935.0572.0641.2235.0654.474.0157 3.8998-.81 6.628-2.6606 6.628-4.8149 0-1.1925-.836-2.2928-2.2472-3.1745-.1161-.073-.1934-.0871-.25-.083-.1028.0067-.16.0699-.2026.1458zM14.258 15.099c1.173-2.849-1.0483-2.494-1.6467-2.3622-1.0218.225-1.996.613-2.7757.924-2.2226.8883-3.4017 1.782-3.7944 2.1234-.0468.0428-.0833.0742-.1066.0995-.0564.0573-.0967.1178-.0967.2007 0 .0923.08.1688.2362.2229.012.0048.0511.0213.0657.0255 1.696.54 3.722.8557 5.9.8557.0177 0 .0592.0016.1178 0 .2609-.0081.5522-.0677.7871-.1888.7781-.4052 1.1169-1.4234 1.3133-1.9007z"
+              fill="currentColor" />
+          </svg>
+                    <span>Hyundai</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M23.902 6.87c-.33-3.218-2.47-3.895-4.354-4.204-.946-.16-2.63-.3-3.716-.34-.946-.06-3.168-.09-3.835-.09-.657 0-2.89.03-3.835.09-1.076.04-2.77.18-3.716.34C2.563 2.985.42 3.66.092 6.87c-.08.877-.1 2.023-.09 3.248.03 2.031.2 3.406.3 4.363.07.657.338 2.62.687 3.636.478 1.395.916 1.803 1.424 2.222.937.757 2.471.996 2.79 1.056 1.733.31 5.24.368 6.784.368 1.544 0 5.05-.05 6.784-.368.329-.06 1.863-.29 2.79-1.056.508-.419.946-.827 1.424-2.222.35-1.016.628-2.979.698-3.636.1-.957.279-2.332.299-4.363.04-1.225.01-2.371-.08-3.248m-1.176 5.4c-.19 2.57-.418 4.104-.747 5.22-.29.976-.637 1.623-1.165 2.092-.867.787-2.063.956-2.76 1.056-1.514.23-4.055.3-6.057.3-2.002 0-4.543-.08-6.057-.3-.697-.1-1.893-.269-2.76-1.056-.518-.469-.876-1.126-1.155-2.093-.329-1.105-.558-2.65-.747-5.22-.11-1.543-.09-4.054.08-5.4.258-2.011 1.255-3.018 3.387-3.396.996-.18 2.34-.31 3.606-.37 1.016-.07 2.7-.1 3.636-.09.936-.01 2.62.03 3.636.09 1.275.06 2.61.19 3.606.37 2.142.378 3.139 1.395 3.388 3.397.199 1.345.229 3.856.11 5.4m-5.202-8.39c-.548 2.462-.767 3.588-1.216 5.37-.428 1.715-.767 3.298-1.335 4.065-.587.777-1.365.947-1.893 1.006-.279.03-.478.04-1.066.05-.596 0-.796-.02-1.075-.05-.528-.06-1.315-.229-1.892-1.006-.578-.767-.907-2.35-1.335-4.064-.47-1.773-.678-2.91-1.236-5.37 0 0-.548.02-.797.04-.329.02-.588.05-.867.09.343 5.372.692 11.079 1.126 16.13a21.983 21.983 0 002.39.169c.33-1.266.748-3.02 1.207-3.767.378-.608.966-.677 1.295-.717.518-.07.956-.08 1.165-.08.2-.01.637 0 1.165.08.33.05.917.11 1.295.717.47.747.877 2.5 1.206 3.766 0 0 .358-.01 1.165-.05.41-.018.82-.058 1.226-.12.458-5.39.785-10.728 1.126-16.128-.28-.04-.538-.07-.867-.09-.23-.02-.787-.04-.787-.04z"
+              fill="currentColor" />
+          </svg>
+                    <span>Honda</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <path
+              d="M12 7c-2 3.5-3.5 6-3.5 9 0 .5.2.8.5.8 1.2 0 2.2-2.5 3-5 .8 2.5 1.8 5 3 5 .3 0 .5-.3.5-.8 0-3-1.5-5.5-3.5-9z"
+              fill="currentColor" />
+          </svg>
+                    <span>Tata Motors</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M12 3.848C5.223 3.848 0 7.298 0 12c0 4.702 5.224 8.152 12 8.152S24 16.702 24 12c0-4.702-5.223-8.152-12-8.152zm7.334 3.839c0 1.08-1.725 1.913-4.488 2.246-.26-2.58-1.005-4.279-1.963-4.913 2.948.184 6.45 1.227 6.45 2.667zM12 16.401c-.96 0-1.746-1.5-1.808-4.389.577.047 1.18.072 1.808.072.628 0 1.23-.025 1.807-.072-.061 2.89-.847 4.389-1.807 4.389zm0-6.308c-.59 0-1.155-.019-1.69-.054.261-1.728.92-3.15 1.69-3.15.77 0 1.428 1.422 1.689 3.15-.535.034-1.099.054-1.689.054zm-.882-5.075c-.956.633-1.706 2.333-1.964 4.915C6.391 9.6 4.665 8.767 4.665 7.687c0-1.44 3.504-2.49 6.453-2.669zM2.037 11.68a5.265 5.265 0 011.048-3.164c.27 1.547 2.522 2.881 5.972 3.37V12c0 3.772.879 6.203 2.087 6.97-5.107-.321-9.107-3.48-9.107-7.29zm10.823 7.29c1.207-.767 2.087-3.198 2.087-6.97v-.115c3.447-.488 5.704-1.826 5.972-3.37a5.26 5.26 0 011.049 3.165c-.004 3.81-4.008 6.969-9.109 7.29z"
+              fill="currentColor" />
+          </svg>
+                    <span>Toyota</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M4 19L10 5l4 9.5L12 19h2.5l2-4.5L19 19h3L14 3.5l-4 9.5-2.5-5.5L4 19z" fill="currentColor" />
+          </svg>
+                    <span>Mahindra</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M2.5 7h2.5l2.5 5.5L10 7h2.5L9 14.5l-2 4.5H4.5l2-4.5L2.5 7zm11 0h2.5v12h-2.5V7zm5 0h2.5L23.5 19H21l-.75-2H17.5l-.75 2h-2.5l2.5-12zm-1 7.5h2l-1-2.7-1 2.7z"
+              fill="currentColor" />
+          </svg>
+                    <span>Kia Motors</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" />
+            <circle cx="12" cy="12" r="5" fill="currentColor" />
+            <path d="M8 8l8 8M16 8l-8 8" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+                    <span>Royal Enfield</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M12 2L4 8v8l8 6 8-6V8l-8-6zm-1 4.5v11l-4-3V9.5l4-3zm6 3l-4 3v5l4-3v-5z" fill="currentColor" />
+          </svg>
+                    <span>Hero MotoCorp</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M3 6l9 6 9-6v3l-9 6-9-6V6zm0 5l9 6 9-6v3l-9 6-9-6v-3z" fill="currentColor" />
+          </svg>
+                    <span>Bajaj Auto</span>
+                </div>
+                <!-- Duplicate for loop -->
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M17.369 19.995C13.51 22.39 12 24 12 24L.105 15.705s5.003-3.715 9.186-.87l5.61 3.882.683-.453L.106 7.321s2.226-.65 6.524-3.315C10.49 1.609 12 0 12 0l11.895 8.296s-5.003 3.715-9.187.87L9.1 5.281l-.683.454L23.893 16.68s-2.224.649-6.524 3.315Z"
+              fill="currentColor" />
+          </svg>
+                    <span>Maruti Suzuki</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M12 18.1622c-6.6275 0-12-2.7586-12-6.163 0-3.4028 5.3725-6.1614 12-6.1614 6.6278 0 12 2.7586 12 6.1614 0 3.4044-5.3722 6.163-12 6.163zM7.6023 7.17C3.701 7.9784.973 9.8302.973 11.9844c0 1.1929.8382 2.2932 2.248 3.1757.1174.0724.1941.0862.251.0826.1019-.006.1593-.0698.201-.146.028-.0485.0631-.1225.0972-.1968.4601-1.0834 2.0776-4.8333 4.2023-7.3758a1.1775 1.1775 0 0 0 .1048-.1461c.046-.084.0356-.1513.0006-.192-.0593-.0647-.2247-.065-.4756-.016zM9.742 8.8995c-1.1728 2.8492 1.0473 2.4961 1.6478 2.3637 1.0203-.2258 1.9944-.6128 2.7746-.925 2.2216-.8887 3.4012-1.7804 3.7925-2.123a1.9839 1.9839 0 0 0 .1076-.0988c.0557-.058.0976-.1192.0976-.2002 0-.0936-.081-.1687-.2374-.2231-.012-.0049-.0517-.021-.0641-.025-1.698-.5415-3.724-.8563-5.9016-.8563-.0168 0-.0586-.0022-.1169 0-.2608.0078-.5509.0664-.787.1888-.7777.4049-1.1163 1.4235-1.313 1.899zm10.5851.0037c-.0268.0487-.0612.1224-.0962.1974-.4599 1.0826-2.0774 4.831-4.2018 7.3733-.0515.063-.0796.1031-.1042.1467-.0492.0846-.0388.1535 0 .1935.0572.0641.2235.0654.474.0157 3.8998-.81 6.628-2.6606 6.628-4.8149 0-1.1925-.836-2.2928-2.2472-3.1745-.1161-.073-.1934-.0871-.25-.083-.1028.0067-.16.0699-.2026.1458zM14.258 15.099c1.173-2.849-1.0483-2.494-1.6467-2.3622-1.0218.225-1.996.613-2.7757.924-2.2226.8883-3.4017 1.782-3.7944 2.1234-.0468.0428-.0833.0742-.1066.0995-.0564.0573-.0967.1178-.0967.2007 0 .0923.08.1688.2362.2229.012.0048.0511.0213.0657.0255 1.696.54 3.722.8557 5.9.8557.0177 0 .0592.0016.1178 0 .2609-.0081.5522-.0677.7871-.1888.7781-.4052 1.1169-1.4234 1.3133-1.9007z"
+              fill="currentColor" />
+          </svg>
+                    <span>Hyundai</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M23.902 6.87c-.33-3.218-2.47-3.895-4.354-4.204-.946-.16-2.63-.3-3.716-.34-.946-.06-3.168-.09-3.835-.09-.657 0-2.89.03-3.835.09-1.076.04-2.77.18-3.716.34C2.563 2.985.42 3.66.092 6.87c-.08.877-.1 2.023-.09 3.248.03 2.031.2 3.406.3 4.363.07.657.338 2.62.687 3.636.478 1.395.916 1.803 1.424 2.222.937.757 2.471.996 2.79 1.056 1.733.31 5.24.368 6.784.368 1.544 0 5.05-.05 6.784-.368.329-.06 1.863-.29 2.79-1.056.508-.419.946-.827 1.424-2.222.35-1.016.628-2.979.698-3.636.1-.957.279-2.332.299-4.363.04-1.225.01-2.371-.08-3.248m-1.176 5.4c-.19 2.57-.418 4.104-.747 5.22-.29.976-.637 1.623-1.165 2.092-.867.787-2.063.956-2.76 1.056-1.514.23-4.055.3-6.057.3-2.002 0-4.543-.08-6.057-.3-.697-.1-1.893-.269-2.76-1.056-.518-.469-.876-1.126-1.155-2.093-.329-1.105-.558-2.65-.747-5.22-.11-1.543-.09-4.054.08-5.4.258-2.011 1.255-3.018 3.387-3.396.996-.18 2.34-.31 3.606-.37 1.016-.07 2.7-.1 3.636-.09.936-.01 2.62.03 3.636.09 1.275.06 2.61.19 3.606.37 2.142.378 3.139 1.395 3.388 3.397.199 1.345.229 3.856.11 5.4m-5.202-8.39c-.548 2.462-.767 3.588-1.216 5.37-.428 1.715-.767 3.298-1.335 4.065-.587.777-1.365.947-1.893 1.006-.279.03-.478.04-1.066.05-.596 0-.796-.02-1.075-.05-.528-.06-1.315-.229-1.892-1.006-.578-.767-.907-2.35-1.335-4.064-.47-1.773-.678-2.91-1.236-5.37 0 0-.548.02-.797.04-.329.02-.588.05-.867.09.343 5.372.692 11.079 1.126 16.13a21.983 21.983 0 002.39.169c.33-1.266.748-3.02 1.207-3.767.378-.608.966-.677 1.295-.717.518-.07.956-.08 1.165-.08.2-.01.637 0 1.165.08.33.05.917.11 1.295.717.47.747.877 2.5 1.206 3.766 0 0 .358-.01 1.165-.05.41-.018.82-.058 1.226-.12.458-5.39.785-10.728 1.126-16.128-.28-.04-.538-.07-.867-.09-.23-.02-.787-.04-.787-.04z"
+              fill="currentColor" />
+          </svg>
+                    <span>Honda</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <path
+              d="M12 7c-2 3.5-3.5 6-3.5 9 0 .5.2.8.5.8 1.2 0 2.2-2.5 3-5 .8 2.5 1.8 5 3 5 .3 0 .5-.3.5-.8 0-3-1.5-5.5-3.5-9z"
+              fill="currentColor" />
+          </svg>
+                    <span>Tata Motors</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M12 3.848C5.223 3.848 0 7.298 0 12c0 4.702 5.224 8.152 12 8.152S24 16.702 24 12c0-4.702-5.223-8.152-12-8.152zm7.334 3.839c0 1.08-1.725 1.913-4.488 2.246-.26-2.58-1.005-4.279-1.963-4.913 2.948.184 6.45 1.227 6.45 2.667zM12 16.401c-.96 0-1.746-1.5-1.808-4.389.577.047 1.18.072 1.808.072.628 0 1.23-.025 1.807-.072-.061 2.89-.847 4.389-1.807 4.389zm0-6.308c-.59 0-1.155-.019-1.69-.054.261-1.728.92-3.15 1.69-3.15.77 0 1.428 1.422 1.689 3.15-.535.034-1.099.054-1.689.054zm-.882-5.075c-.956.633-1.706 2.333-1.964 4.915C6.391 9.6 4.665 8.767 4.665 7.687c0-1.44 3.504-2.49 6.453-2.669zM2.037 11.68a5.265 5.265 0 011.048-3.164c.27 1.547 2.522 2.881 5.972 3.37V12c0 3.772.879 6.203 2.087 6.97-5.107-.321-9.107-3.48-9.107-7.29zm10.823 7.29c1.207-.767 2.087-3.198 2.087-6.97v-.115c3.447-.488 5.704-1.826 5.972-3.37a5.26 5.26 0 011.049 3.165c-.004 3.81-4.008 6.969-9.109 7.29z"
+              fill="currentColor" />
+          </svg>
+                    <span>Toyota</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M4 19L10 5l4 9.5L12 19h2.5l2-4.5L19 19h3L14 3.5l-4 9.5-2.5-5.5L4 19z" fill="currentColor" />
+          </svg>
+                    <span>Mahindra</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path
+              d="M2.5 7h2.5l2.5 5.5L10 7h2.5L9 14.5l-2 4.5H4.5l2-4.5L2.5 7zm11 0h2.5v12h-2.5V7zm5 0h2.5L23.5 19H21l-.75-2H17.5l-.75 2h-2.5l2.5-12zm-1 7.5h2l-1-2.7-1 2.7z"
+              fill="currentColor" />
+          </svg>
+                    <span>Kia Motors</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+            <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" />
+            <circle cx="12" cy="12" r="5" fill="currentColor" />
+            <path d="M8 8l8 8M16 8l-8 8" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+                    <span>Royal Enfield</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M12 2L4 8v8l8 6 8-6V8l-8-6zm-1 4.5v11l-4-3V9.5l4-3zm6 3l-4 3v5l4-3v-5z" fill="currentColor" />
+          </svg>
+                    <span>Hero MotoCorp</span>
+                </div>
+                <div class="ticker-item">
+                    <svg class="brand-logo" viewBox="0 0 24 24">
+            <path d="M3 6l9 6 9-6v3l-9 6-9-6V6zm0 5l9 6 9-6v3l-9 6-9-6v-3z" fill="currentColor" />
+          </svg>
+                    <span>Bajaj Auto</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metric highlight numbers bar -->
+    <section class="stats-bar">
+        <div class="container stats-grid" id="stats-numbers-container">
+            <div class="stat-card">
+                <div class="stat-num" id="count-bookings" data-target="50000">0</div>
+                <div class="stat-label">Doorstep Bookings</div>
+                <svg class="stat-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+        </svg>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num" id="count-vendors" data-target="1000">0</div>
+                <div class="stat-label">Verified Partners</div>
+                <svg class="stat-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num" id="count-csat" data-target="4.8">0</div>
+                <div class="stat-label">Customer Rating</div>
+                <svg class="stat-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+          </polygon>
+        </svg>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num" id="count-cancellations">&lt;5%</div>
+                <div class="stat-label">Cancellation Rate</div>
+                <svg class="stat-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three-step Process Section -->
+    <section class="steps-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">How It Works</span>
+                <h2 class="section-title" id="how-it-works-title">Three steps from dirty to detailed.</h2>
+                <p class="section-desc">We've removed the hassle. No driving, no waiting at service centers, no surprise invoices.
+                </p>
+            </div>
+
+            <div class="steps-3d-layout" id="steps-circular-container">
+                <!-- Left: Interactive 3D Orbit circle -->
+                <div class="steps-orbit-column">
+                    <div class="steps-orbit-wrapper">
+                        <div class="steps-orbit-ring-3d">
+                            <!-- Outer rotating decorative HUD ring -->
+                            <div class="hud-ring-outer">
+                                <svg viewBox="0 0 400 400">
+                  <circle cx="200" cy="200" r="170" stroke="rgba(240, 90, 40, 0.08)" stroke-width="1.5"
+                    stroke-dasharray="12 12" fill="none" />
+                  <circle cx="200" cy="200" r="150" stroke="rgba(240, 90, 40, 0.18)" stroke-width="2.5"
+                    stroke-dasharray="8 6" fill="none" />
+                </svg>
+                            </div>
+                            <!-- Inner rotating decorative HUD ring (counter-rotating) -->
+                            <div class="hud-ring-inner">
+                                <svg viewBox="0 0 400 400">
+                  <circle cx="200" cy="200" r="130" stroke="rgba(240, 90, 40, 0.05)" stroke-width="2"
+                    stroke-dasharray="4 20" fill="none" />
+                </svg>
+                            </div>
+
+                            <!-- Glowing core in center -->
+                            <div class="steps-orbit-core">
+                                <div class="core-inner">
+                                    <img src="assets/logo-icon.png" alt="MechServi Logo" class="core-logo">
+                                </div>
+                                <!-- Dual pulsing outer layers -->
+                                <div class="core-pulse-1"></div>
+                                <div class="core-pulse-2"></div>
+                            </div>
+
+                            <!-- Step Nodes placed at angles -->
+                            <!-- Step 1: Angle 270 (top center) -->
+                            <div class="step-node active" data-step="1" style="--angle: 270deg; --offset-x: 0px; --offset-y: -150px;">
+                                <div class="step-node-inner">
+                                    <span class="step-node-num">01</span>
+                                    <span class="step-node-icon">
+                    <svg class="node-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                  </span>
+                                </div>
+                                <div class="step-node-label">Post Request</div>
+                            </div>
+
+                            <!-- Step 2: Angle 30 (bottom right) -->
+                            <div class="step-node" data-step="2" style="--angle: 30deg; --offset-x: 130px; --offset-y: 75px;">
+                                <div class="step-node-inner">
+                                    <span class="step-node-num">02</span>
+                                    <span class="step-node-icon">
+                    <svg class="node-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </span>
+                                </div>
+                                <div class="step-node-label">Partner Match</div>
+                            </div>
+
+                            <!-- Step 3: Angle 150 (bottom left) -->
+                            <div class="step-node" data-step="3" style="--angle: 150deg; --offset-x: -130px; --offset-y: 75px;">
+                                <div class="step-node-inner">
+                                    <span class="step-node-num">03</span>
+                                    <span class="step-node-icon">
+                    <svg class="node-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="5" width="20" height="14" rx="2" ry="2"></rect>
+                      <line x1="2" y1="10" x2="22" y2="10"></line>
+                    </svg>
+                  </span>
+                                </div>
+                                <div class="step-node-label">Track & Pay</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Dynamic preview & explanation hub -->
+                <div class="steps-details-column">
+                    <div class="steps-display-hub">
+                        <!-- Step 1 Details -->
+                        <div class="step-detail-pane active" data-step="1">
+                            <span class="detail-step-num">Step 01</span>
+                            <h3>Post a Request</h3>
+                            <p>Select your vehicle, choose from our comprehensive service catalog, set your location, and pick your preferred time slot inside the app.</p>
+
+                            <div class="detail-preview-box">
+                                <div class="booking-item-preview">
+                                    <div class="booking-item-info">
+                                        <div class="booking-item-icon">W</div>
+                                        <div class="booking-item-text">Premium Wash (Honda City)</div>
+                                    </div>
+                                    <div class="booking-item-price">₹299</div>
+                                </div>
+                                <div class="booking-item-preview" style="opacity: 0.6;">
+                                    <div class="booking-item-info">
+                                        <div class="booking-item-icon" style="background-color: rgba(6,182,212,0.1); color: var(--color-secondary);">D</div>
+                                        <div class="booking-item-text">Interior Vacuum Add-on</div>
+                                    </div>
+                                    <div class="booking-item-price">₹99</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 Details -->
+                        <div class="step-detail-pane" data-step="2">
+                            <span class="detail-step-num">Step 02</span>
+                            <h3>Partner Matches</h3>
+                            <p>Our intelligent matching system connects you instantly with the nearest background-verified and certified MechServi Partner carrying professional service tools.</p>
+
+                            <div class="detail-preview-box">
+                                <div class="partner-preview-card">
+                                    <div class="partner-preview-avatar">S</div>
+                                    <div class="partner-preview-details">
+                                        <h5>Suresh Kumar</h5>
+                                        <p>⭐ 4.9 (420+ washes) • Verified</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 Details -->
+                        <div class="step-detail-pane" data-step="3">
+                            <span class="detail-step-num">Step 03</span>
+                            <h3>Track, Verify & Pay</h3>
+                            <p>Track your service partner's location live on our integrated GPS map. Review before/after work photos, approve final results, and complete payment securely.</p>
+
+                            <div class="detail-preview-box">
+                                <div class="track-preview-card">
+                                    <div class="track-status-line">
+                                        <div class="track-dot"></div>
+                                        <span>Service In Progress (75%)</span>
+                                    </div>
+                                    <div class="track-progress-bar">
+                                        <div class="track-progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Catalog Grid -->
+    <section class="catalog-section" id="services">
+        <div class="container">
+            <div class="catalog-header">
+                <div class="left">
+                    <span class="section-label">Our Service Offerings</span>
+                    <h2 class="section-title">A pro for whatever your vehicle throws at you.</h2>
+                </div>
+
+                <div class="catalog-header-controls">
+                    <!-- Filter Tabs -->
+                    <ul class="catalog-tabs" id="category-tabs">
+                        <li class="catalog-tab active" data-filter="all">All</li>
+                        <li class="catalog-tab" data-filter="wash">Washing</li>
+                        <li class="catalog-tab" data-filter="repair">Repairs</li>
+                        <li class="catalog-tab" data-filter="emergency">Emergency</li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <!-- Catalog Grid of Services -->
+            <div class="catalog-carousel-container">
+                <button class="arrow-btn large-arrow left-arrow" id="carousel-prev" aria-label="Previous service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+                <div class="services-grid" id="services-cards-container">
+
+                    <!-- Service Card 1 -->
+                    <div class="service-card wash" data-category="wash">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="assets/service_car_wash.png" alt="Premium Car Wash" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M20 16.24V19a2 2 0 01-2 2h-1.24L12 16.24 7.24 21H6a2 2 0 01-2-2v-2.76L8.76 12 4 7.24V6a2 2 0 012-2h1.24L12 8.76 16.76 4H18a2 2 0 012 2v2.76L15.24 12 20 16.24z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Premium Car Wash</h3>
+                        <p>Complete external pressure foam wash, window cleaning, tyre dressing, and full interior vacuuming at your parking slot.</p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹299</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card wash" data-category="wash">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=500&auto=format&fit=crop&q=80" alt="Express Bike Wash" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Express Bike Wash</h3>
+                        <p>Thorough foaming, high pressure rinsing, chain cleaning and lubrication, and air drying for motorcycles & scooters.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹149</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card wash" data-category="wash">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=500&auto=format&fit=crop&q=80" alt="Ceramic Detailing" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Ceramic Detailing</h3>
+                        <p>Premium paint correction, rubbing-polishing, and multi-layer hydrophobic ceramic coating for deep shine and protection.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹4,999</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="service-card repair" data-category="repair">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?w=500&auto=format&fit=crop&q=80" alt="Basic Engine Service" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Basic Engine Service</h3>
+                        <p>Spark plug inspection, air and oil filter clean/replace, engine tuning, fluid top-ups, and diagnostic checkups.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹1,299</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 5 -->
+                    <div class="service-card repair" data-category="repair">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=500&auto=format&fit=crop&q=80" alt="AC Service & Gas" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.15a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>AC Service & Gas</h3>
+                        <p>AC vent cleaning, cabin filter replacement, condenser wash, leak testing, and refrigerant gas top-up/refill.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹899</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 6 -->
+                    <div class="service-card repair" data-category="repair">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=500&auto=format&fit=crop&q=80" alt="Brake Inspection" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Brake Inspection</h3>
+                        <p>Brake pads cleaning, caliper greasing, brake fluid level check and top-up, and disc alignment adjustment.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹499</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 7 -->
+                    <div class="service-card repair" data-category="repair">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&auto=format&fit=crop&q=80" alt="Oil & Filter Change" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.15a2 2 0 00-1.806.547M8 4h8"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Oil & Filter Change</h3>
+                        <p>Drainage of old engine oil, replacing with certified synthetic or semi-synthetic oil, and fresh oil filter installation.
+                        </p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹799</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 8 -->
+                    <div class="service-card repair" data-category="repair">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=500&auto=format&fit=crop&q=80" alt="Battery Replacement" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Battery Replacement</h3>
+                        <p>Battery voltage test, terminal cleaning, brand new battery replacement with warranty card activation and buyback discount.</p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹2,499</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 9 -->
+                    <div class="service-card emergency" data-category="emergency">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1601739722627-f00a99138ea1?w=500&auto=format&fit=crop&q=80" alt="Flat Tyre Doorstep Fix" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M12 12v.01M5.636 5.636a9 9 0 000 12.728m0 0l2.829-2.829"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Flat Tyre Doorstep Fix</h3>
+                        <p>Emergency technician dispatched to fix tyre punctures, mount spare wheel (stepney), or resolve tyre pressure loss issues.</p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹299</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 10 -->
+                    <div class="service-card emergency" data-category="emergency">
+                        <div class="service-card-img-wrap">
+                            <img class="service-card-img" src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=500&auto=format&fit=crop&q=80" alt="Breakdown Assistance" loading="lazy">
+                            <div class="service-icon-wrap">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path
+                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <h3>Breakdown Assistance</h3>
+                        <p>24/7 priority emergency response. Rapid technician dispatch for engine failure, jumpstart, towing, and roadside lockouts.</p>
+                        <div class="service-footer">
+                            <div class="service-price">Starts at <br><span>₹999</span></div>
+                            <a href="#simulator" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="3">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg></a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="arrow-btn large-arrow right-arrow" id="carousel-next" aria-label="Next service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Booking Simulator Section -->
+    <section class="simulator-section" id="simulator">
+        <div class="container simulator-grid">
+            <div class="sim-info">
+                <span class="section-label">Interactive Experience</span>
+                <h2>See the jobs come in, live.</h2>
+                <p class="section-desc">
+                    Wondering how doorstep service works? Try our booking simulator. Go through the matching algorithm, real-time tracking, before/after photo documentation, and digital checkout.
+                </p>
+
+                <div class="sim-features">
+                    <div class="sim-feat-item">
+                        <div class="sim-feat-num">1</div>
+                        <div class="sim-feat-details">
+                            <h4>Matching Engine</h4>
+                            <p>Locates closest certified technicians, matching your vehicle's make & service complexity.</p>
+                        </div>
+                    </div>
+
+                    <div class="sim-feat-item">
+                        <div class="sim-feat-num">2</div>
+                        <div class="sim-feat-details">
+                            <h4>Doorstep Transparency</h4>
+                            <p>Verify before and after pictures of replaced parts and fluid levels straight from your phone.</p>
+                        </div>
+                    </div>
+
+                    <div class="sim-feat-item">
+                        <div class="sim-feat-num">3</div>
+                        <div class="sim-feat-details">
+                            <h4>Secure Wallet Settlement</h4>
+                            <p>Payouts release to the partner's wallet only after you click 'Approve Work Completed'.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sim-controls">
+                    <button class="sim-control-btn" id="trigger-sim-run">Start Live Demo</button>
+                </div>
+            </div>
+
+            <div class="simulator-visual">
+                <div class="sim-glow"></div>
+
+                <!-- Live App Mockup -->
+                <div class="sim-smartphone" id="simulator-phone">
+                    <div class="sim-app-screen">
+                        <div class="sim-app-navbar">
+                            <span class="sim-app-nav-title">MechServi App</span>
+                            <div class="sim-app-nav-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+
+                        <div class="sim-app-content">
+
+                            <!-- State 0: Select Service / Input -->
+                            <div class="sim-state active" id="sim-state-0">
+                                <div class="form-title">Book Doorstep Care</div>
+
+                                <div class="form-group">
+                                    <label for="sim-vehicle">Select Vehicle</label>
+                                    <select id="sim-vehicle" class="form-select">
+                    <option value="car">Honda City (KA01AB1234)</option>
+                    <option value="bike">Royal Enfield Bullet (KA03XY9999)</option>
+                  </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sim-service">Choose Service</label>
+                                    <select id="sim-service" class="form-select">
+                    <option value="Premium Wash|299">Premium Car Wash — ₹299</option>
+                    <option value="Basic Engine Service|1299">Basic Engine Service — ₹1,299</option>
+                    <option value="Flat Tyre Doorstep Fix|299">Flat Tyre Doorstep Fix — ₹299</option>
+                  </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="sim-address">Doorstep Address</label>
+                                    <input type="text" id="sim-address" class="form-input" value="Koramangala, Bangalore (Home)">
+                                </div>
+
+                                <button class="sim-booking-btn" id="sim-submit-booking">Book Now (Cashless)</button>
+                            </div>
+
+                            <!-- State 1: Matching / Sonar Loader -->
+                            <div class="sim-state" id="sim-state-1">
+                                <div class="matching-container">
+                                    <div class="sonar-wrapper">
+                                        <div class="sonar-center">
+                                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                                        </div>
+                                        <div class="sonar-wave"></div>
+                                        <div class="sonar-wave-2"></div>
+                                    </div>
+                                    <div class="matching-title">Matching Partner</div>
+                                    <div class="matching-desc" id="sim-match-text">Searching for closest certified car washer...</div>
+                                </div>
+                            </div>
+
+                            <!-- State 2: Map & Partner Assigned -->
+                            <div class="sim-state" id="sim-state-2">
+                                <div class="map-bg">
+                                    <div class="app-map-road app-map-road-h" style="top: 35%;"></div>
+                                    <div class="app-map-road app-map-road-v" style="left: 55%;"></div>
+                                    <div class="app-map-pin" style="top: 30%; left: 52%;"></div>
+                                    <div class="app-map-vendor-pin" style="top: 48%; left: 32%; background-color: var(--color-primary);" id="sim-map-driver-pin">
+                                        <svg viewBox="0 0 24 24">
+                      <path
+                        d="M12 2C8.13 2 5 5.13 5 9C5 13.9 11.24 21.32 11.5 21.64C11.76 21.96 12.24 21.96 12.5 21.64C12.76 21.32 19 13.9 19 9C19 5.13 15.87 2 12 2Z" />
+                    </svg>
+                                    </div>
+                                    <div class="map-route-line" style="top: 38%; left: 34%; width: 22%; transform: rotate(-20deg);"></div>
+                                </div>
+
+                                <div class="partner-card">
+                                    <div class="partner-info">
+                                        <div class="partner-avatar">S</div>
+                                        <div class="partner-meta">
+                                            <h4 id="sim-partner-name">Suresh Kumar</h4>
+                                            <p id="sim-partner-rating">⭐ 4.9 (420+ washes completed)</p>
+                                        </div>
+                                        <div class="partner-status-badge">En Route</div>
+                                    </div>
+                                    <div class="partner-eta">
+                                        Estimated Arrival <span>12 minutes</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- State 3: Service In Progress & Photo Updates -->
+                            <div class="sim-state" id="sim-state-3">
+                                <div class="progress-container">
+                                    <div class="progress-header">
+                                        <h4>Service Progress</h4>
+                                        <span class="progress-pulse"></span>
+                                    </div>
+
+                                    <div class="photo-updates">
+                                        <div class="photo-card">
+                                            <div class="photo-placeholder" id="before-photo-box">
+                                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path
+                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                                                <span>Uploaded</span>
+                                            </div>
+                                            <div class="photo-label">Before Wash</div>
+                                        </div>
+                                        <div class="photo-card">
+                                            <div class="photo-placeholder" id="after-photo-box" style="background: var(--bg-secondary);">
+                                                <!-- Loading spinner in SVG -->
+                                                <svg width="24" height="24" viewBox="0 0 50 50" stroke="var(--color-primary)" stroke-width="4" fill="none" class="spin-icon">
+                          <circle cx="25" cy="25" r="20" stroke-dasharray="80 150" stroke-linecap="round" />
+                        </svg>
+                                                <span id="after-photo-status">Washing...</span>
+                                            </div>
+                                            <div class="photo-label">After Wash</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-indicator-card">
+                                        <div class="prog-item">
+                                            <div class="prog-dot completed"></div>
+                                            <div class="prog-text">Partner Arrived at Driveway</div>
+                                        </div>
+                                        <div class="prog-item">
+                                            <div class="prog-dot active"></div>
+                                            <div class="prog-text active" id="sim-active-step">Car Cleaning In Progress</div>
+                                        </div>
+                                        <div class="prog-item">
+                                            <div class="prog-dot"></div>
+                                            <div class="prog-text">Final Quality Inspection</div>
+                                        </div>
+                                    </div>
+
+                                    <button class="sim-booking-btn" id="sim-approve-work" style="margin-top: 1rem; background-color: var(--color-green); display: none;">
+                    Approve Work & Pay
+                  </button>
+                                </div>
+                            </div>
+
+                            <!-- State 4: Booking Completed Receipt -->
+                            <div class="sim-state" id="sim-state-4">
+                                <div class="completed-container">
+                                    <div class="success-badge">✓</div>
+                                    <div class="completed-title">Service Completed!</div>
+                                    <div class="completed-desc">Payment settled successfully from wallet</div>
+
+                                    <div class="receipt-card">
+                                        <div class="receipt-row">
+                                            <span>Vehicle</span>
+                                            <strong id="receipt-vehicle">Honda City</strong>
+                                        </div>
+                                        <div class="receipt-row">
+                                            <span>Service</span>
+                                            <strong id="receipt-service">Premium Car Wash</strong>
+                                        </div>
+                                        <div class="receipt-row">
+                                            <span>Partner</span>
+                                            <strong id="receipt-partner">Suresh Kumar</strong>
+                                        </div>
+                                        <div class="receipt-row total">
+                                            <span>Total Charge</span>
+                                            <span id="receipt-price">₹299</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="sim-reset-btn" id="sim-finish-demo">Try Another Service</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">Loved by vehicle owners, trusted by families.</h2>
+                <p class="section-desc">See what members of the MechServi community are saying about our doorstep ecosystem.</p>
+            </div>
+
+            <div class="testimonials-grid" id="testimonial-slider-container">
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <div class="stars-rating">
+                        <!-- 5 Stars SVG -->
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Before MechServi, washing my Honda City meant driving to the mall, waiting in lines, and wasting 2 hours of my weekend. Now Suresh cleans it in my apartment basement while I hang out with my kids. Absolute game changer."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar purple">R</div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Honda City Owner • Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonial-card">
+                    <div class="stars-rating">
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "My SUV wouldn't start on a Monday morning when I had an important presentation. I tapped the Emergency Battery Dead service, and technician Ramesh showed up at my home with a new battery in 25 minutes. Lifesaver!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar orange">P</div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Hyundai Creta Owner • Noida</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <div class="stars-rating">
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                        <svg viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "I'm super picky about who touches my Royal Enfield. MechServi lets me see the mechanic's certification, rating, and specialized background before matching. The service was top notch and very transparent."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar teal">A</div>
+                        <div class="author-info">
+                            <h4>Arjun Patel</h4>
+                            <p>Royal Enfield Owner • Pune</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner / Vendor Section -->
+    <section class="partner-recruitment bg-dark-section" id="partner">
+        <div class="container partner-recruitment-grid">
+            <div class="partner-recruitment-info">
+                <span class="section-label">Join Our Partner Network</span>
+                <h2>Skilled in your trade?<br>Build your business on MechServi.</h2>
+                <p class="hero-desc" style="color: var(--text-light-muted); max-width: 600px;">
+                    Empowering mechanics, detailers, and washers to become micro-entrepreneurs. Get steady customer flows, weekly settlements, advanced tooling support, and training on future EV tech.
+                </p>
+
+                <div class="partner-benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">✓</div>
+                        <div class="benefit-details">
+                            <h4>Earn up to ₹40,000 / month</h4>
+                            <p>Get regular job bookings in your preferred service radius and maximize your working hours.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">✓</div>
+                        <div class="benefit-details">
+                            <h4>Weekly Wallet Settlements</h4>
+                            <p>No waiting. All earnings and customer tips are settled securely to your bank account weekly.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">✓</div>
+                        <div class="benefit-details">
+                            <h4>Tools & Technical Training</h4>
+                            <p>Access specialized tool financing and comprehensive training on premium cars and electric vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#download" class="btn btn-dark-cta" id="partner-cta-btn">Join as a Partner</a>
+            </div>
+
+            <!-- Partner Earnings Dashboard Graphic (CSS) -->
+            <div class="partner-dashboard-wrap">
+                <div class="earnings-dashboard" id="earnings-card">
+                    <div class="dash-header">
+                        <div>
+                            <div class="dash-title">Weekly Earnings</div>
+                            <div class="dash-earnings-val">₹18,420</div>
+                        </div>
+                        <div class="partner-status-badge" style="background-color: rgba(6, 182, 212, 0.15); color: var(--color-secondary);">Active</div>
+                    </div>
+
+                    <div class="dash-stats-grid">
+                        <div class="dash-stat-box">
+                            <div class="dash-stat-num">16</div>
+                            <div class="dash-stat-lbl">Jobs Done</div>
+                        </div>
+                        <div class="dash-stat-box">
+                            <div class="dash-stat-num">4.9★</div>
+                            <div class="dash-stat-lbl">Rating</div>
+                        </div>
+                        <div class="dash-stat-box">
+                            <div class="dash-stat-num">98%</div>
+                            <div class="dash-stat-lbl">On-Time</div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container" id="earnings-chart">
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 45px;"></div>
+                            <span class="chart-day">M</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 60px;"></div>
+                            <span class="chart-day">T</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 50px;"></div>
+                            <span class="chart-day">W</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 85px;"></div>
+                            <span class="chart-day">T</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 70px;"></div>
+                            <span class="chart-day">F</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar" style="height: 95px;"></div>
+                            <span class="chart-day">S</span>
+                        </div>
+                        <div class="chart-bar-wrap">
+                            <div class="chart-bar glow" style="height: 110px;"></div>
+                            <span class="chart-day" style="color: #FFF; font-weight: bold;">S</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section class="banner-section" id="download">
+        <div class="container">
+            <div class="download-banner" id="download-app-banner">
+                <div class="download-banner-text">
+                    <h2>MechServi lives in your pocket.</h2>
+                    <p>Download our customer application or partner application to experience convenient doorstep vehicle care instantly.
+                    </p>
+                    <div class="app-badges">
+                        <a href="#" class="app-badge">
+                            <!-- Simple Google Play Icon SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M5 3.00003C4.5 3.00003 4 3.30003 4 4.00003V20C4 20.7 4.5 21 5 21C5.3 21 5.6 20.9 5.8 20.7L15 12L5.8 3.30003C5.6 3.10003 5.3 3.00003 5 3.00003ZM16 11L19 12.8C19.7 13.2 20 13.7 20 14C20 14.3 19.7 14.8 19 15.2L16 17L12 14L16 11Z" />
+              </svg> Google Play
+                        </a>
+                        <a href="#" class="app-badge">
+                            <!-- Simple App Store Apple Icon SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.7 18.5C17.7 19.9 16.6 21.3 15 21.3C13.5 21.3 13 20.4 11.2 20.4C9.5 20.4 8.9 21.3 7.5 21.3C5.9 21.3 4.7 19.8 3.7 18.4C1.7 15.5 0.2 10.3 2.2 6.8C3.2 5.1 5 4 6.9 4C8.4 4 9.7 5 10.6 5C11.5 5 13.1 3.8 14.9 3.8C15.6 3.8 17.3 4.2 18.4 5.8C18.3 5.9 16.3 7.1 16.3 9.5C16.3 12.4 18.7 13.4 18.8 13.4C18.8 13.5 18.4 14.9 17.5 16.2L18.7 18.5ZM14.8 2.2C15.6 1.2 16.1 0 16.1 0C16.1 0 15 0.5 14.2 1.5C13.4 2.5 12.9 3.7 12.9 3.7C12.9 3.7 14 3.2 14.8 2.2Z" />
+              </svg> App Store
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CSS QR Code Card -->
+                <div class="qr-code-card" id="app-qr-card">
+                    <div class="qr-graphic">
+                        <!-- Simulated QR Blocks -->
+                        <div class="qr-block qr-corner"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block qr-corner"></div>
+
+                        <div class="qr-block"></div>
+                        <div class="qr-block empty"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block empty"></div>
+                        <div class="qr-block"></div>
+
+                        <div class="qr-block qr-corner"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block qr-corner"></div>
+                    </div>
+                    <p>Scan to Download</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="faq-section" id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Frequently Asked Questions</span>
+                <h2 class="section-title">The fine print, simplified.</h2>
+                <p class="section-desc">Clear answers to common questions about MechServi operations, partners, and protection policies.
+                </p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-list" id="faq-accordion-list">
+
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How does doorstep vehicle service work?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Once you book, a verified MechServi partner is dispatched to your location (home, office, or breakdown site). They bring all necessary eco-friendly cleaning agents, diagnostic tools, and equipment. The service is completed
+                                right in your parking slot or driveway without requiring you to supervise. You receive real-time before/after photos and approve the job directly in the app before the partner is paid.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Are the service partners certified and background-verified?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. Every partner goes through a rigorous onboarding process that includes identity verification (Aadhaar & PAN cards), professional reference checks, mandatory police background checks, and an in-person skill assessment test.
+                                Additionally, partners undergo specialized customer service and tool handling training before accepting bookings.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What happens if my car or bike requires additional parts?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>If the technician detects that a part needs replacement, they will inspect it and upload photos of the worn component. They will raise an additional work request within the app detailing the cost of the original spare part.
+                                Work will only proceed once you review the quote and tap "Approve Work". This guarantees there are zero surprise charges on your final invoice.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is waterless car washing, and is it safe for my vehicle?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Waterless car washing uses premium, highly-lubricated polymers sprayed directly onto the vehicle. These polymers encapsulate dirt particles, lifting them away from the paint. The technician then wipes them off gently with high-grade
+                                microfiber towels. It is 100% safe, scratch-free, gives a deep wax shine, and saves over 150 liters of water per wash.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What does the emergency roadside assistance cover?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our emergency assistance runs 24/7. It covers flat tyre puncture repairs, battery jumpstarts (using portable booster packs), fuel delivery (up to 5 liters of petrol/diesel), keys locked inside retrieval, and towing services
+                                to the nearest major service station if the vehicle cannot be repaired on the spot.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is my vehicle insured during the service?</h3>
+                            <div class="faq-icon-wrap">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes. In the rare event of accidental damage during the cleaning or repair process, MechServi provides platform liability insurance coverage of up to ₹25,000 for bikes and up to ₹1,00,000 for cars, ensuring total peace of mind
+                                for our customers.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo" style="margin-bottom: 1.5rem;">
+          <img src="assets/logo.png" alt="MechServi Logo">
+        </a>
+                <p>India’s 🇮🇳 trusted platform for car and bike care. Bringing verified service professionals to your doorstep with convenience, transparency, and reliability.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/people/Mechservi-Technology/61574689574135/" target="_blank" class="social-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+            </svg>
+          </a>
+                    <a href="https://www.instagram.com/mechservi/" target="_blank" class="social-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+                    <a href="https://in.linkedin.com/company/mechservi" target="_blank" class="social-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+          </a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#home">About Us</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#partner">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Premium Car Wash</a></li>
+                    <li><a href="#services">Express Bike Wash</a></li>
+                    <li><a href="#services">Ceramic Detailing</a></li>
+                    <li><a href="#services">General Service</a></li>
+                    <li><a href="#services">Roadside Assistance</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="tel:09005479555">090054 79555</a></li>
+                    <li><a href="mailto:info@mechservi.in">info@mechservi.in</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#partner">Become a Partner</a></li>
+                    <li><a href="#download">Download Apps</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div>© 2026 Mechservi Technology Pvt Ltd · Made with ♥ in India · All rights reserved.
+            </div>
+            <div class="footer-legal-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
